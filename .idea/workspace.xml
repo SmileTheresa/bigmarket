@@ -5,63 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="098f3d62-9662-4f4d-b0c5-651fbc5d69dc" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/java/com/wbjava/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/java/com/wbjava/config/GuavaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/java/com/wbjava/config/ThreadPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/java/com/wbjava/config/ThreadPoolConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/java/com/wbjava/config/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/java/com/wbjava/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/frame_case_mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/test/java/com/wbjava/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/xxx/adapter/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/xxx/model/aggregate/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/xxx/model/entity/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/xxx/model/valobj/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/xxx/repository/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/xxx/service/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/yyy/model/aggregate/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/yyy/model/entity/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/yyy/model/valobj/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/yyy/repository/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/yyy/service/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/gateway/adapter/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/gateway/api/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/gateway/dto/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/dao/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/po/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/repository/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-trigger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-trigger/src/main/java/com/wbjava/trigger/http/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-trigger/src/main/java/com/wbjava/trigger/job/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-trigger/src/main/java/com/wbjava/trigger/listener/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-types/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-types/src/main/java/com/wbjava/types/common/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-types/src/main/java/com/wbjava/types/enums/ResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-types/src/main/java/com/wbjava/types/exception/AppException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/app/docker-compose-1.0.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/app/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/app/stop.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/mysql/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/mysql/sql/big_market.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/mysql/sql/xfg-frame-archetype.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,22 +25,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SmileTheresa"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SmileTheresa&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/SmileTheresa/bigmarket.git",
+    "url": "git@github.com:SmileTheresa/bigmarket.git",
     "accountId": "a1b6256b-cf09-4954-ae76-67595024df07"
   }
 }]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="2.1965279982749357" />
@@ -156,10 +100,10 @@
       <entry key="W1" value="2.9999996836828635" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3GHF2uTvCO36vaCfG3PU0FNy5dR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -177,7 +121,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "orm",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -202,7 +146,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="mysql: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -235,6 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783620384280</updated>
       <workItem from="1783620385609" duration="4568000" />
+      <workItem from="1783650041218" duration="91000" />
     </task>
     <servers />
   </component>
@@ -246,7 +193,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
