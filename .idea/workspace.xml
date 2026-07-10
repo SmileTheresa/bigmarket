@@ -4,39 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="098f3d62-9662-4f4d-b0c5-651fbc5d69dc" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/award_mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_award_mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_rule_mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/test/java/com/wbjava/test/infrastrcture/AwardDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/strategy/model/entity/AwardEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/strategy/model/entity/StrategyAwardEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/strategy/model/entity/StrategyConditionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/strategy/repository/IStrategyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/strategy/service/armory/IStrategyArmory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/strategy/service/armory/StrategyArmory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/dao/IAwardDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/dao/IStrategyAwardDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/dao/IStrategyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/dao/IStrategyRuleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/po/Award.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/po/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/po/StrategyAward.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/po/StrategyRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/redis/IRedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/redis/RedissonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/repository/StrategyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/redis/redis.conf" afterDir="false" />
+    <list default="true" id="3243ded1-3256-4513-861e-eacf72196761" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/java/com/wbjava/config/RedisClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/java/com/wbjava/config/RedisClientConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/frame_case_mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/dao/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-infrastructure/src/main/java/com/wbjava/infrastructure/persistent/po/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/mysql/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/environment/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/mysql/sql/big_market.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/environment/mysql/sql/big_market.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/mysql/sql/xfg-frame-archetype.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/environment/mysql/sql/xfg-frame-archetype.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigmarket-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/award_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/award_mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_award_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_award_mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_rule_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_rule_mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigmarket-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigmarket-types/src/main/java/com/wbjava/types/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-types/src/main/java/com/wbjava/types/common/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,152 +25,78 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
-      <entry key="_D:/Javaproject/bigmarket" value="3GHF2uTvCO36vaCfG3PU0FNy5dR" />
+      <entry key="_D:/Javaproject/bigmarket" value="3GJimFZx6nIjLJGm9dOE5dgluYc" />
     </persistenceIdMap>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;SmileTheresa&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SmileTheresa"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:SmileTheresa/bigmarket.git&quot;,
-    &quot;accountId&quot;: &quot;a1b6256b-cf09-4954-ae76-67595024df07&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:SmileTheresa/bigmarket.git",
+    "accountId": "a1b6256b-cf09-4954-ae76-67595024df07"
   }
-}</component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="NextEditCompletionFeaturesState">
-    <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000011495087" />
-      <entry key="S10" value="1.0000355859687367" />
-      <entry key="S30" value="1.065923796413654" />
-      <entry key="S60" value="1.65523247552446" />
-      <entry key="M2" value="3.3265646589258773" />
-      <entry key="M5" value="6.185756119713466" />
-      <entry key="M10" value="7.82029291569365" />
-      <entry key="M15" value="8.478074340001454" />
-      <entry key="M30" value="9.202317970007506" />
-      <entry key="H1" value="9.59151462483018" />
-      <entry key="H2" value="9.79328550756829" />
-      <entry key="H4" value="9.896017041341379" />
-      <entry key="D1" value="9.98258193548337" />
-      <entry key="W1" value="9.997509551711374" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.022890940941734E-130" />
-      <entry key="S2" value="3.180221234739287E-33" />
-      <entry key="S5" value="1.0022658505874841E-13" />
-      <entry key="S10" value="3.1658582573884826E-7" />
-      <entry key="S30" value="0.006815491108296416" />
-      <entry key="S60" value="0.08255598771922248" />
-      <entry key="M2" value="0.2873255779063579" />
-      <entry key="M5" value="0.607225100674497" />
-      <entry key="M10" value="0.7792464954521752" />
-      <entry key="M15" value="0.8468046584870897" />
-      <entry key="M30" value="0.9202198968111315" />
-      <entry key="H1" value="0.959280926950563" />
-      <entry key="H2" value="0.9794288779439592" />
-      <entry key="H4" value="0.9896609914227998" />
-      <entry key="D1" value="0.998269361384522" />
-      <entry key="W1" value="0.9997525823412914" />
-    </decayedSelected>
-    <decayedShown>
-      <entry key="MS100" value="3.0905055301850193E-30" />
-      <entry key="MS500" value="1.2531582137578688E-6" />
-      <entry key="S2" value="0.03345811551590091" />
-      <entry key="S5" value="0.2569215849054931" />
-      <entry key="S10" value="0.5069101075899011" />
-      <entry key="S30" value="0.8695070128868849" />
-      <entry key="S60" value="1.6273755652748114" />
-      <entry key="M2" value="3.5529872997222123" />
-      <entry key="M5" value="6.765605004057943" />
-      <entry key="M10" value="8.585073128524666" />
-      <entry key="M15" value="9.315032992954421" />
-      <entry key="M30" value="10.117505651536733" />
-      <entry key="H1" value="10.548250470138788" />
-      <entry key="H2" value="10.771434381765143" />
-      <entry key="H4" value="10.885036137043466" />
-      <entry key="D1" value="10.98074404879446" />
-      <entry key="W1" value="10.997246806366658" />
-    </decayedShown>
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Java_env\apache-maven-3.9.16-bin\apache-maven-3.9.16" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Java_env\apache-maven-3.9.16-bin\apache-maven-3.9.16\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="3GHF2uTvCO36vaCfG3PU0FNy5dR" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3GJimFZx6nIjLJGm9dOE5dgluYc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Docker.environment: Compose 部署.executor": "Run",
-    "Docker.mysql: Compose 部署.executor": "Run",
     "JUnit.AwardDaoTest.test_queryAwardList.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "copilot.chat.legacySessionMetadata.migrated": "true",
     "git-widget-placeholder": "orm",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Javaproject/bigmarket",
+    "last_opened_file_path": "D:/Javaproject/bigmarket/bigmarket-app/src/main/java/com/wbjava/config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable",
+    "settings.editor.selected.configurable": "MavenSettings",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Javaproject\bigmarket" />
-      <recent name="D:\Javaproject\bigmarket\docs\dev-ops\environment" />
-      <recent name="D:\Javaproject\bigmarket\bigmarket-infrastructure\src\main\java\com\wbjava\infrastructure\persistent" />
-      <recent name="D:\Javaproject\bigmarket\bigmarket-infrastructure\src\main\java\com\wbjava\infrastructure\persistent\repository" />
-      <recent name="D:\Javaproject\bigmarket\bigmarket-domain\src\main\java\com\wbjava\domain" />
+      <recent name="D:\Javaproject\bigmarket\bigmarket-app\src\main\java\com\wbjava\config" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Javaproject\bigmarket\docs\dev-ops\environment" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wbjava.types.common" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.environment: Compose 部署">
+  <component name="RunManager" selected="JUnit.AwardDaoTest.test_queryAwardList">
     <configuration name="AwardDaoTest.test_queryAwardList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bigmarket-app" />
       <extension name="coverage">
@@ -215,33 +120,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="environment: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docs/dev-ops/environment/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="mysql: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docs/dev-ops/mysql/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.environment: Compose 部署" />
         <item itemvalue="JUnit.AwardDaoTest.test_queryAwardList" />
-        <item itemvalue="Docker.mysql: Compose 部署" />
       </list>
     </recent_temporary>
   </component>
@@ -253,45 +134,18 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="StructureViewState">
-    <option name="selectedTab" value="逻辑" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="098f3d62-9662-4f4d-b0c5-651fbc5d69dc" name="更改" comment="" />
-      <created>1783620384280</created>
+      <changelist id="3243ded1-3256-4513-861e-eacf72196761" name="更改" comment="" />
+      <created>1783696230223</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1783620384280</updated>
-      <workItem from="1783620385609" duration="4568000" />
-      <workItem from="1783650041218" duration="91000" />
+      <updated>1783696230223</updated>
+      <workItem from="1783696231450" duration="862000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
