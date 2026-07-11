@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3243ded1-3256-4513-861e-eacf72196761" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/java/com/wbjava/config/RedisClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/main/java/com/wbjava/config/RedisClientConfigProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3243ded1-3256-4513-861e-eacf72196761" name="更改" comment="feat:orm">
+      <change afterPath="$PROJECT_DIR$/bigmarket-app/src/test/java/com/wbjava/test/domain/StrategyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/award_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/award_mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_award_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_award_mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_rule_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/main/resources/mybatis/mapper/strategy_rule_mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigmarket-types/src/main/java/com/wbjava/types/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-types/src/main/java/com/wbjava/types/common/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigmarket-app/src/test/java/com/wbjava/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-app/src/test/java/com/wbjava/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/strategy/service/armory/StrategyArmory.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigmarket-domain/src/main/java/com/wbjava/domain/strategy/service/armory/StrategyArmory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SmileTheresa"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SmileTheresa&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:SmileTheresa/bigmarket.git",
-    "accountId": "a1b6256b-cf09-4954-ae76-67595024df07"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:SmileTheresa/bigmarket.git&quot;,
+    &quot;accountId&quot;: &quot;a1b6256b-cf09-4954-ae76-67595024df07&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -52,10 +44,69 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000954949972" />
+      <entry key="MS500" value="1.0413691318966152" />
+      <entry key="S2" value="1.6759194513195235" />
+      <entry key="S5" value="2.4714365650729997" />
+      <entry key="S10" value="3.043314206570747" />
+      <entry key="S30" value="3.6211165267248386" />
+      <entry key="S60" value="3.8018559953601816" />
+      <entry key="M2" value="3.9604997371560837" />
+      <entry key="M5" value="5.942942243511473" />
+      <entry key="M10" value="10.713720989875549" />
+      <entry key="M15" value="14.21258895650084" />
+      <entry key="M30" value="19.611961443215726" />
+      <entry key="H1" value="23.34265252582566" />
+      <entry key="H2" value="25.541826053292148" />
+      <entry key="H4" value="26.736647013683573" />
+      <entry key="D1" value="27.784512188745033" />
+      <entry key="W1" value="27.969093037198984" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="2.2920425118660357E-19" />
+      <entry key="MS500" value="1.870873974863016E-4" />
+      <entry key="S2" value="0.11695293722892502" />
+      <entry key="S5" value="0.42384245194393083" />
+      <entry key="S10" value="0.6510318363520565" />
+      <entry key="S30" value="0.8666972309636131" />
+      <entry key="S60" value="0.9310006376609637" />
+      <entry key="M2" value="0.9781634102733064" />
+      <entry key="M5" value="1.4842716112439163" />
+      <entry key="M10" value="2.7036284553610437" />
+      <entry key="M15" value="3.5872889788153066" />
+      <entry key="M30" value="4.935437106826201" />
+      <entry key="H1" value="5.8576768827286685" />
+      <entry key="H2" value="6.398239432363852" />
+      <entry key="H4" value="6.691045003978745" />
+      <entry key="D1" value="6.9473479692312265" />
+      <entry key="W1" value="6.992449374651689" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="3.4137179794335473E-7" />
+      <entry key="MS500" value="0.0837194908617729" />
+      <entry key="S2" value="1.1122168895646602" />
+      <entry key="S5" value="2.440016801414787" />
+      <entry key="S10" value="3.408044072339783" />
+      <entry key="S30" value="4.3745370042671325" />
+      <entry key="S60" value="4.673593199068545" />
+      <entry key="M2" value="4.907703323640295" />
+      <entry key="M5" value="7.40636480903734" />
+      <entry key="M10" value="13.396975838216898" />
+      <entry key="M15" value="17.78157136289072" />
+      <entry key="M30" value="24.534680614989654" />
+      <entry key="H1" value="29.192761174019004" />
+      <entry key="H2" value="31.935928490491587" />
+      <entry key="H4" value="33.425528159057365" />
+      <entry key="D1" value="34.731485621745044" />
+      <entry key="W1" value="34.96148855767716" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3GJimFZx6nIjLJGm9dOE5dgluYc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,6 +115,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.AwardDaoTest.test_queryAwardList.executor": "Run",
+    "JUnit.StrategyTest.test_getAssembleRandomVal.executor": "Run",
+    "JUnit.StrategyTest.test_shuffle.executor": "Run",
+    "JUnit.StrategyTest.test_strategyArmory.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -74,7 +128,7 @@
     "git-widget-placeholder": "orm",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Javaproject/bigmarket/bigmarket-app/src/main/java/com/wbjava/config",
+    "last_opened_file_path": "D:/Javaproject/bigmarket/bigmarket-app/src/test/java/com/wbjava/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,13 +144,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Javaproject\bigmarket\bigmarket-app\src\test\java\com\wbjava\test" />
+      <recent name="D:\Javaproject\bigmarket\bigmarket-app\src\test\java\com\wbjava\test\infrastrcture" />
       <recent name="D:\Javaproject\bigmarket\bigmarket-app\src\main\java\com\wbjava\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wbjava.types.common" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AwardDaoTest.test_queryAwardList">
+  <component name="RunManager" selected="JUnit.StrategyTest.test_strategyArmory">
     <configuration name="AwardDaoTest.test_queryAwardList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bigmarket-app" />
       <extension name="coverage">
@@ -113,6 +169,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyTest.test_getAssembleRandomVal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigmarket-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wbjava.test.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wbjava.test.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.wbjava.test.domain.StrategyTest" />
+      <option name="METHOD_NAME" value="test_getAssembleRandomVal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyTest.test_shuffle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigmarket-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wbjava.test.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wbjava.test.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.wbjava.test.domain.StrategyTest" />
+      <option name="METHOD_NAME" value="test_shuffle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyTest.test_strategyArmory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigmarket-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wbjava.test.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wbjava.test.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.wbjava.test.domain.StrategyTest" />
+      <option name="METHOD_NAME" value="test_strategyArmory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="bigmarket-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wbjava.Application" />
@@ -122,6 +226,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StrategyTest.test_strategyArmory" />
+        <item itemvalue="JUnit.StrategyTest.test_shuffle" />
+        <item itemvalue="JUnit.StrategyTest.test_getAssembleRandomVal" />
         <item itemvalue="JUnit.AwardDaoTest.test_queryAwardList" />
       </list>
     </recent_temporary>
@@ -141,11 +248,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1783696230223</updated>
-      <workItem from="1783696231450" duration="862000" />
+      <workItem from="1783696231450" duration="9534000" />
     </task>
+    <task id="LOCAL-00001" summary="feat:orm">
+      <option name="closed" value="true" />
+      <created>1783697170982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783697170982</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat:orm" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:orm" />
   </component>
 </project>

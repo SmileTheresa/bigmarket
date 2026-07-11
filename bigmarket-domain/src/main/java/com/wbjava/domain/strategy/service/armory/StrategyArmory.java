@@ -50,6 +50,9 @@ public class StrategyArmory implements IStrategyArmory {
             Integer awardId = strategyAward.getAwardId();
             BigDecimal awardRate = strategyAward.getAwardRate();
             // 计算出每个概率值需要存放到查找表的数量，循环填充
+            // rateRange.multiply(awardRate)
+            // 总长度 × 当前奖品概率 = 这个奖品在数组中需要占多少个位置
+            // 保留 0 位小数，向上取整，保证极小概率奖品至少分配 1 个位置，不会丢失中奖资格；
             for (int i = 0; i < rateRange.multiply(awardRate).setScale(0, RoundingMode.CEILING).intValue(); i++) {
                 strategyAwardSearchRateTables.add(awardId);
             }
